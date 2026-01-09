@@ -77,13 +77,15 @@ In this task, you will explore an Azure Migrate project and the default built-in
      
 1. In Hyper-V Manager, select the **AzureMigrateAppliance (1)** VM, then click **Start (2)** from the right-hand Actions pane if it is not already running.
 
-    ![Screenshot of Hyper-V Manager showing the start button for the Azure Migrate appliance.](Images/infra-l1-11.png "Start AzureMigrateAppliance")
+    ![Screenshot of Hyper-V Manager showing the start button for the Azure Migrate appliance.](Images/upinfra-l1-11.png "Start AzureMigrateAppliance")
     
      > **Note:** If you encounter an error while starting the **AzureMigrateAppliance** VM, try **turning off** the **AzureArcVM**, then start the **AzureMigrateAppliance** VM again.
 
      > **Note:** Follow these steps and run the commands one-by-one from the code block.
 
-     1. On the **Lab VM**, open **Windows PowerShell** (blue icon) **Run as administrator.**
+     1. On the **Lab VM**, click on the **Start (1)** menu button and then right click on  **Windows PowerShell (2)** tile and select **Run as administrator (3)**
+
+        ![](Images/psnav.png)
 
      2. Copy the code block below.
 
@@ -206,7 +208,7 @@ In this task, you will explore an Azure Migrate project and the default built-in
       - Map credentials: Select **hostlogin (3)** from the dropdown and 
       - Select **Save (4)**.
 
-        ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add discovery source' panel.](Images/15-7-25-l1-27.png "Discovery source - SmartHotelHost")
+        ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add discovery source' panel.](Images/up15-7-25-l1-27.png "Discovery source - SmartHotelHost")
 
          > **Note:** You can either **Add single item** at a time or **Add multiple items** in one go. There is also an option to provide Hyper-V host/cluster details through **Import CSV**.
 
